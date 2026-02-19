@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polishchuk Z9_html</title>
+    <link rel="stylesheet" href="poli_z9.css">
+</head>
+
+<body>
+    <ol id="punkty">
+
+        <li>
+            Składnia teoretyczna
+        </li>
+        <textarea style="width: 234px; height: 63px;">
+selektor {
+    właściwość: wartość;
+}
+        </textarea>
+        <br><br>
+
+        <li>
+            Gdzie wstawiany jest <b>styl zewnętrzny</b>?
+        </li>
+        <p>
+            Styl zewnętrzny wstawiany jest w sekcji <b>"head"</b> dokumentu HTML.
+            Odpowiada za to znacznik <b>"link"</b>.
+            Może on występować wiele razy w jednym dokumencie.
+        </p>
+
+        <li>
+            Najprostsza forma wstawiania stylu zewnętrznego
+        </li>
+        <textarea style="width: 321px; height: 32px;">
+<link rel="stylesheet" href="style.css">
+        </textarea>
+        <br><br>
+
+        <li>
+            Ile arkuszy stylów można dołączyć?
+        </li>
+        <p>
+            Do jednego dokumentu HTML można dołączyć wiele arkuszy stylów.
+            Przy większej liczbie obowiązuje zasada kaskadowości –
+            style wczytane później mogą nadpisywać wcześniejsze.
+        </p>
+
+        <li>
+            Co dzieje się w przypadku konfliktów?
+        </li>
+        <p>
+            Konflikt występuje, gdy te same właściwości są definiowane
+            w różnych arkuszach stylów. Decyduje:
+        </p>
+        <ul type="square">
+            <li>kolejność wczytywania plików,</li>
+            <li>specyficzność selektorów,</li>
+            <li>użycie !important.</li>
+        </ul>
+        <br>
+
+        <li>
+            Jak tworzone są pliki CSS w edytorze tekstowym?
+        </li>
+        <p>
+            Tworzymy nowy plik tekstowy, zapisujemy go z rozszerzeniem <b>.css</b>,
+            a następnie wpisujemy reguły CSS zgodnie ze składnią.
+        </p>
+
+        <li>
+            Jak tworzone są pliki CSS w specjalnym edytorze?
+        </li>
+        <p>
+            Można używać programów takich jak Visual Studio Code lub Notepad++,
+            które oferują kolorowanie składni, podpowiedzi oraz automatyczne formatowanie.
+        </p>
+
+        <li>
+            Jakie rozszerzenie posiada plik zewnętrznego arkusza stylów?
+        </li>
+        <p>
+            Zewnętrzny arkusz stylów posiada rozszerzenie <b>.css</b>.
+        </p>
+
+        <li>
+            Zalety zewnętrznego arkusza stylów:
+        </li>
+        <ul type="square">
+            <li>Oddzielenie treści od wyglądu strony.</li>
+            <li>Możliwość użycia jednego pliku CSS na wielu stronach.</li>
+        </ul>
+        <br>
+
+        <li>
+            Uwagi na temat pisania w CSS:
+        </li>
+        <ul type="square">
+            <li>Poprawna składnia (średniki i nawiasy klamrowe).</li>
+            <li>Stosowanie wcięć dla czytelności.</li>
+            <li>Unikanie powielania kodu.</li>
+            <li>Komentowanie ważnych fragmentów.</li>
+        </ul>
+
+    </ol>
+</body>
+
+<!-- Polishchuk Z9_html -->
+
+</html>

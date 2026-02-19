@@ -1,0 +1,22 @@
+li {
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+textarea {
+    border: 1px solid black;
+}
+
+ol#punkty li {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+ul {
+    font-family: Arial;
+    font-size: 18px;
+}

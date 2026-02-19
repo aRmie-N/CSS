@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polishchuk Z8_html</title>
+
+    <style>
+        li {
+            font-size: 20px;
+        }
+
+        P {
+            font-family: Arial;
+            font-size: 18px;
+        }
+
+        table {
+            border: 1px solid;
+        }
+
+        ol#selektory li {
+            font-family: Arial;
+            font-size: 18px;
+        }
+
+        ul#cechy_wartości li {
+            font-family: Arial;
+            font-size: 18px;
+        }
+
+        textarea {
+            width: 390;
+            height: 164;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>
+            Gdzie jest wtawiany <b>styl wewnętrzny?</b>
+        </li>
+        <p>- <b>Styl wewnętrzny</b> jest wstawiany wewnąrtrz znacznika <b>"style"</b> w sekcji <b>"head"</b></p>
+        <li>
+            Składnia teoretyczna<br><br>
+        </li>
+        <textarea style="width: 390; height: 164">
+<head>
+(...)
+<style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ (...)
+</style>
+(...)
+</head>
+        </textarea><br><br>
+        <li>
+            Jakie mogą być <b>selektory</b>?
+        </li>
+        <ol id="selektory">
+            <li>
+                Selektor tagu
+            </li>
+            <li>
+                Selektor klasy
+            </li>
+            <li>
+                Selektor ID
+            </li>
+            <li>
+                Selektor uniwersalny
+            </li>
+            <li>
+                Selektor potomka
+            </li>
+            <li>
+                Selektor bezpośredniego dziecka
+            </li>
+            <li>
+                Selektor atrybutu
+            </li>
+            <li>
+                Pseudoklasy
+            </li>
+            <li>
+                Grupowanie selektorów
+            </li>
+        </ol><br>
+        <li>
+            W CSS <b>cechy</b> mogą dotyczyć różnych rzeczy, np.:
+        </li>
+        <ul type="square" id="cechy_wartości">
+            <li>
+                koloru – color, background-color
+            </li>
+            <li>
+                tekstu – font-size, font-family, text-align
+            </li>
+            <li>
+                odstępów – margin, padding
+            </li>
+            <li>
+                obramowania – border, border-radius
+            </li>
+            <li>
+                rozmiaru – width, height
+            </li>
+            <li>
+                położenia – position, top, left
+            </li>
+            <li>
+                układu – display, flex, grid
+            </li>
+        </ul><br>
+        <li>
+            <b>Wartości</b> mogą być różne, np.:
+        </li>
+        <ul type="square" id="cechy_wartości">
+            <li>
+                kolory – red, blue, #000000, rgb(255,0,0)
+            </li>
+            <li>
+                liczby z jednostkami – 10px, 2em, 50%
+            </li>
+            <li>
+                słowa kluczowe – block, inline, center, absolute
+            </li>
+            <li>
+                wartości specjalne – auto, none, inherit
+            </li>
+        </ul>
+    </ol>
+</body>
+
+<!--  Polishchuk Z8_html  -->
+
+</html>
