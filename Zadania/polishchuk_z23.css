@@ -1,0 +1,39 @@
+p#pogrubienie_polishchuk {
+    font-size: 35px;
+    color: #9a5dce;
+    font-weight: bold;
+}
+
+p#pochylona_polishchuk {
+    font-size: 40pt;
+    color: #fec16a;
+    font-style: italic;
+}
+
+p#index_gorny_polishchuk {
+    font-size: 1.5cm;
+    color: #ae8f1a;
+    vertical-align: super;
+}
+
+p#index_dolny_polishchuk {
+    font-size: 1cm;
+    color: #4af3e2;
+    vertical-align: sub;
+}
+
+p#mono_polishchuk {
+    font-size: 45px;
+    color: #2edf6a;
+    font-family: monospace;
+}
+
+p#powiekszenie_polishchuk {
+    color: #683f9c;
+    font-size: larger;
+}
+
+p#pomniejszenie_polishchuk {
+    color: rgb(81%, 61%, 21%);
+    font-size: smaller;
+}
