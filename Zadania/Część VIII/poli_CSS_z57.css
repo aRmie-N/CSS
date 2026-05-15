@@ -1,0 +1,15 @@
+* {
+    font-size: 38pt;
+    color: blue;
+    background-color: yellow;
+}
+
+p.klasa_nieuniwersalna_polishchuk {
+    font-size: 35pt;
+    color: purple;
+}
+
+.klasa_uniwersalna_polishchuk {
+    font-size: 26pt;
+    color: black;
+}
