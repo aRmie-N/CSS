@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polishchuk Z58_html</title>
+
+    <style>
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            margin: 3px;
+        }
+
+        img {
+            margin: 50px;
+        }
+
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        div {
+            border: 1px solid black;
+            padding: 5px;
+            width: 600px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Temat: Teoria dotycząca opisującą pseudoklasy.</h1>
+    <h2>1) Co to są pseudoklasy?</h2>
+    <p>CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie niektórych
+        elementów dokumentu są to <b>Pseudoklasy.</b></p>
+    <h2>2) Uwaga dotycząca dwukropka:</h2>
+    <p>Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy
+        selektorem a nazwą klasy.</p>
+    <h2>3) Tabela opisująca pseudoklasy:</h2>
+    <table>
+        <tr>
+            <th>a:link</th>
+            <td>odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze
+                odwiedzone.</td>
+        </tr>
+        <tr>
+            <th>a:visited</th>
+            <td>odpowiada za formatowanie hiperłącza już odwiedzonego.</td>
+        </tr>
+        <tr>
+            <th>a:hover</th>
+            <td>zmiany pewnych elementów po najechaniu na nie urządzeniem<br>
+                wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor<br>
+                lub element blokowy DIV.</td>
+        </tr>
+        <tr>
+            <th>a:active</th>
+            <td>pozwala nadać dowolne formatowanie elementowi po nakierowaniu na<br>
+                niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego<br>
+                zwolnieniem (odsyłacz aktywnykliknięty).</td>
+        </tr>
+        <tr>
+            <th>a:focus</th>
+            <td>jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był<br>
+                formatowany innym kolorem. Odsyłacz posiadającytzw fokus-<br>
+                zaznaczony przy poruszaniu się po dokumencie przy pomocy<br>
+                klawiszatabulacji: naciśnięcie w tym momencie klawisza ENTER<br>
+                spowoduje taką reakcję przeglądarki, jakby dany odsyłacz został<br>
+                kliknięty.</td>
+        </tr>
+        <tr>
+            <th>:lang</th>
+            <td>formatowanie wielojęzykowych dokumentów.</td>
+        </tr>
+        <tr>
+            <th>:first-child</th>
+            <td>umożliwia określenie formatowania dla pierwszego dziecka wybranego<br>
+                elementu.</td>
+        </tr>
+    </table>
+    <h2>4) Zastosowanie pseudoklasy :active</h2>
+    <p>1) można używać jako uzupełnienia definicji odnośników<br>
+        2) jako elementu poprawiającego czytelność formularzy.</p>
+    <h2>5) Przykłady kodów definiowania pseudoklas</h2>
+    <div>
+        <b>Przykład 1</b><br>
+        <u>Temat:</u> Arkusz wykorzystujący <b>:link</b> oraz <b>:visitedpseudoklasy</b> w połączeniu z selektorem<br>
+        <b>a.</b> Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu<br>
+        taki odnośnik będzie miał kolor zielony.<br> <br>
+        a:link {<br>
+        color:red;<br>
+        } <br><br>
+
+        a:visited {<br>
+        color:green;<br>
+        }
+    </div>
+    <div><b>Przykład 2</b><br>
+        <u>Temat:</u> Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.<br><br>
+        a { /* Definicja odsyłacza podstawowego*/<br>
+        font-size:12pt;<br>
+        text-decoration:none;<br>
+        }<br><br>
+
+        a:link {<br>
+        color:navy;<br>
+        }<br><br>
+
+        a:visited {<br>
+        color:green;<br>
+        }<br><br>
+
+        a:hover {<br>
+        color:red;<br>
+        text-decoration:underline;<br>
+        }
+    </div>
+    <div><b>Przykład 3</b><br>
+        <u>Temat:</u> Zastosowanie :focus<br><br>
+        A:focus {<br>
+        color:braun;<br>
+        }
+    </div>
+</body>
+
+</html>
+<!-- Polishchuk Z57_html -->
