@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polishchuk Z61_kod</title>
+</head>
+
+<body>
+
+    <h1>Kod HTML</h1>
+
+    <textarea readonly
+        style="border:1px solid black; width:1000px; height:420px; padding:5px; font-family:monospace; resize:none;">
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Polishchuk Z65_html</title>
+    <link rel="stylesheet" href="poli_CSS_z65.css">
+</head>
+
+<body>
+
+<div id="pierwszy_polishchuk">
+
+<p>
+Pierwszy akapit/pierwszy DIV--> nazwisko ucznia np. Polishchuk<br>
+nazwa ID akapitu id="pierwszy_polishchuk"
+</p>
+
+<p>
+Drugi akapit/pierwszy DIV<br>
+pierwszy akapit --> p:first-child {font-size:9mm;font-style:italic;}<br>
+bo numer nieparzysty w dzienniku<br>
+pozostałe akapity --> p{font-size:10pt;} bo numer parzysty<br>
+szerokość bloku = 700+20*4=772pt<br>
+pierwszy DIV --> kolor jasno niebieski
+</p>
+
+<p>
+Trzeci akapit/pierwszy DIV<br>
+pierwszy DIV --> obramowanie granatowe 5px<br>
+pierwszy DIV --> obramowanie grubość 5px (ciągłe solid)<br>
+pierwszy DIV --> r1=7mm+8=15px
+</p>
+
+</div>
+
+<br>
+
+<div id="drugi_polishchuk">
+
+<p>
+Pierwszy akapit/drugi DIV--> imię ucznia np. Mykhailo<br>
+nazwa ID akapitu id="drugi_polishchuk"
+</p>
+
+<p>
+Drugi akapit/drugi DIV<br>
+Imię DIV --> kolor różowy
+</p>
+
+<p>
+Trzeci akapit/drugi DIV<br>
+drugi DIV --> obramowanie czarne 3px<br>
+drugi DIV --> obramowanie grubość 3px (ciągłe solid)<br>
+drugi DIV --> r2=7+10=17px
+</p>
+
+</div>
+
+<br>
+
+<div id="trzeci_polishchuk">
+
+<p>
+Pierwszy akapit/trzeci DIV--> klasa ucznia np. 3P<br>
+nazwa ID akapitu id="trzeci_polishchuk"
+</p>
+
+<p>
+Drugi akapit/trzeci DIV<br>
+klasa DIV=3P<br>
+trzeci DIV --> kolor jasno zielony
+</p>
+
+<p>
+Trzeci akapit/trzeci DIV<br>
+trzeci DIV --> obramowanie fioletowe 7px<br>
+trzeci DIV --> obramowanie grubość 7px (ciągłe solid)<br>
+trzeci DIV --> r3=7+5=12px
+</p>
+
+</div>
+
+</body>
+
+</html>
+
+<!-- Polishchuk Z65_html -->
+    </textarea>
+
+    <h1>Kod CSS</h1>
+
+    <textarea readonly
+        style="border:1px solid black; width:600px; height:450px; padding:5px; font-family:monospace; resize:none;">
+body {
+    background-color: silver;
+}
+
+p {
+    font-size: 10pt;
+}
+
+p:first-child {
+    font-size: 9mm;
+    font-style: italic;
+}
+
+div#pierwszy_polishchuk {
+    background-color: rgb(173, 216, 230);
+    width: 772pt;
+
+    border: 5px solid navy;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#drugi_polishchuk {
+    background-color: rgb(255, 192, 203);
+    width: 972pt;
+
+    border: 3px solid black;
+
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+div#trzeci_polishchuk {
+    background-color: rgb(144, 238, 144);
+    width: 1172pt;
+
+    border: 7px solid violet;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Polishchuk Z65_css */
+    </textarea>
+
+</body>
+
+</html>
+
+<!-- Polishchuk Z61_kod -->

@@ -1,0 +1,56 @@
+body {
+    background-color: silver;
+}
+
+p {
+    font-size: 10pt;
+}
+
+p:first-child {
+    font-size: 9mm;
+    font-style: italic;
+}
+
+div#pierwszy_polishchuk {
+    background-color: rgb(173, 216, 230);
+    width: 772pt;
+
+    border: 5px solid navy;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#drugi_polishchuk {
+    background-color: rgb(255, 192, 203);
+    width: 972pt;
+
+    border: 3px solid black;
+
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+div#trzeci_polishchuk {
+    background-color: rgb(144, 238, 144);
+    width: 1172pt;
+
+    border: 7px solid violet;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Polishchuk Z65_css */

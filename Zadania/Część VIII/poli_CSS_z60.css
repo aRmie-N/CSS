@@ -1,0 +1,31 @@
+div#blok1_polishchuk {
+    background-color: #00ff00;
+    width: 618px;
+}
+
+div#blok2_polishchuk {
+    background-color: #00ff00;
+    width: 618px;
+}
+
+div#blok3_polishchuk {
+    background-color: #00ff00;
+    width: 618px;
+}
+
+div#blok1_polishchuk:hover {
+    background-color: yellow;
+    font-size: 20mm;
+}
+
+div#blok2_polishchuk:hover {
+    background-color: red;
+    font-size: 20mm;
+}
+
+div#blok3_polishchuk:hover {
+    background-color: blue;
+    font-size: 20mm;
+}
+
+/* Polishchuk Z60_css */

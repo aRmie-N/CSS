@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Polishchuk Z66_html</title>
+</head>
+
+<body>
+
+    <h1>Opis pseudoelementów CSS</h1>
+
+    <h2>1. Pseudoelement :first-line</h2>
+
+    <p>
+        Pseudoelement <b>:first-line</b> pozwala formatować tylko pierwszy
+        wiersz tekstu znajdującego się w elemencie. Można zmieniać między
+        innymi kolor, rozmiar, krój i styl czcionki.
+    </p>
+
+    <p><b>Składnia:</b></p>
+
+    <pre>
+selektor:first-line
+{
+    cecha: wartość;
+}
+    </pre>
+
+    <p><b>Przykład:</b></p>
+
+    <pre>
+p:first-line
+{
+    color:red;
+    font-weight:bold;
+}
+    </pre>
+
+    <hr>
+
+    <h2>2. Pseudoelementy :before oraz :after</h2>
+
+    <p>
+        Pseudoelement <b>:before</b> służy do wstawiania treści przed
+        zawartością elementu.
+    </p>
+
+    <p>
+        Pseudoelement <b>:after</b> służy do wstawiania treści po
+        zawartości elementu.
+    </p>
+
+    <p>
+        Najczęściej wykorzystuje się właściwość <b>content</b>,
+        określającą tekst lub symbol, który ma zostać dodany.
+    </p>
+
+    <p><b>Składnia:</b></p>
+
+    <pre>
+selektor:before
+{
+    content:"tekst";
+}
+
+selektor:after
+{
+    content:"tekst";
+}
+    </pre>
+
+    <p><b>Przykład:</b></p>
+
+    <pre>
+p:before
+{
+    content:"*** ";
+}
+
+p:after
+{
+    content:" ***";
+}
+    </pre>
+
+    <hr>
+
+    <h2>3. Pseudoelement :first-letter</h2>
+
+    <p>
+        Pseudoelement <b>:first-letter</b> pozwala formatować pierwszą
+        literę tekstu znajdującego się w elemencie.
+    </p>
+
+    <p>
+        Jest często wykorzystywany do tworzenia ozdobnych inicjałów
+        na początku akapitów.
+    </p>
+
+    <p><b>Składnia:</b></p>
+
+    <pre>
+selektor:first-letter
+{
+    cecha: wartość;
+}
+    </pre>
+
+    <p><b>Przykład:</b></p>
+
+    <pre>
+p:first-letter
+{
+    color:blue;
+    font-size:300%;
+    font-weight:bold;
+}
+    </pre>
+
+</body>
+
+</html>
+
+<!-- Polishchuk Z66_html -->

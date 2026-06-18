@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Polishchuk Z64_html</title>
+    <link rel="stylesheet" href="poli_CSS_z64.css">
+</head>
+
+<body>
+
+    <h1>Teoria dotycząca zaokrąglania narożników oraz centrowania DIVów</h1>
+
+    <h2>1. Tabela zaokrąglania narożników obszarów bloków np. DIV</h2>
+
+    <table border="1">
+        <tr>
+            <th>Rodzaj zaokrąglenia</th>
+            <th>Składnia CSS</th>
+        </tr>
+
+        <tr>
+            <td>Zaokrąglenie górnego-lewego narożnika</td>
+            <td>selektor { border-top-left-radius: zaokrąglenie; }</td>
+        </tr>
+
+        <tr>
+            <td>Zaokrąglenie górnego-prawego narożnika</td>
+            <td>selektor { border-top-right-radius: zaokrąglenie; }</td>
+        </tr>
+
+        <tr>
+            <td>Zaokrąglenie dolnego-prawego narożnika</td>
+            <td>selektor { border-bottom-right-radius: zaokrąglenie; }</td>
+        </tr>
+
+        <tr>
+            <td>Zaokrąglenie dolnego-lewego narożnika</td>
+            <td>selektor { border-bottom-left-radius: zaokrąglenie; }</td>
+        </tr>
+    </table>
+
+    <h2>2. Zastosowanie oraz uwagi dotyczące zaokrąglania narożników</h2>
+
+    <p>
+        We wszystkich przypadkach selektorem może być dowolny znacznik, np.:
+    </p>
+
+    <ul>
+        <li>p – akapit</li>
+        <li>h1 – nagłówek</li>
+        <li>div – blok</li>
+    </ul>
+
+    <p>
+        Parametr "zaokrąglenie" określa promień wyrażony w jednostkach długości
+        lub w procentach.
+    </p>
+
+    <p>
+        Możliwe jest podanie:
+    </p>
+
+    <ul>
+        <li>jednej wartości – zaokrąglenie symetryczne,</li>
+        <li>dwóch wartości – pierwsza określa promień poziomy, druga pionowy.</li>
+    </ul>
+
+    <p>
+        Zaokrąglone narożniki poprawiają estetykę strony internetowej.
+        Element nie musi posiadać obramowania – wystarczy ustalone tło.
+        Należy jednak uważać na zbyt duży promień zaokrąglenia, ponieważ tekst
+        może wychodzić poza obszar elementu.
+    </p>
+
+    <h2>3. Przykład z instrukcji</h2>
+
+    <pre>
+border-top-right-radius: 10px;
+    </pre>
+
+    <h2>4. Centrowanie bloków DIV</h2>
+
+    <p>
+        Aby wyśrodkować blok DIV w poziomie, należy w definicji CSS wpisać:
+    </p>
+
+    <pre>
+margin-left: auto;
+margin-right: auto;
+    </pre>
+
+    <p>
+        Dzięki temu przeglądarka automatycznie wylicza marginesy po lewej
+        i prawej stronie, umieszczając blok na środku strony.
+    </p>
+
+</body>
+
+</html>
+
+<!-- Polishchuk Z64_html -->

@@ -1,0 +1,44 @@
+p
+{
+    font-size:23pt;
+    color:rgb(144,238,144);
+}
+
+p.pierwszy:first-letter
+{
+    font-size:115pt;
+    color:silver;
+}
+
+p.drugi
+{
+    font-size:23pt;
+    color:rgb(144,238,144);
+}
+
+p.drugi:first-letter
+{
+    font-size:115pt;
+    color:orange;
+}
+
+h1
+{
+    color:purple;
+    font-size:40pt;
+}
+
+h1:first-letter
+{
+    color:silver;
+    font-size:100pt;
+}
+
+p.linia:first-line
+{
+    color:red;
+    font-weight:bold;
+    font-size:20pt;
+}
+
+/* Polishchuk Z67_css */
